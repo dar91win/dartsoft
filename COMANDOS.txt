@@ -23,3 +23,11 @@ BUILD_PATH='../dartsoftapp'
 
 package.json
 "homepage": "https://analista.local/dartsoftapp",
+
+
+
+
+
+.git 
+
+git push -u origin varios
