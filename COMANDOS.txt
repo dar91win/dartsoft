@@ -1,0 +1,25 @@
+npx create-react-app dartsoft
+cd dartsoft
+npm start
+
+
+npm install react-router-dom
+
+
+.htaccess
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /dartsoftapp/
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /dartsoftapp/index.html [L]
+</IfModule>
+
+
+.env
+BUILD_PATH='../dartsoftapp'
+
+package.json
+"homepage": "https://analista.local/dartsoftapp",
